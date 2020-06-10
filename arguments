@@ -1,0 +1,11 @@
+#/bin/bash
+
+
+echo "Total number of arguements = " $#
+echo "The argumements are " $@
+
+# Arguments as an array
+#
+args=("$@")
+echo "First argument " ${args[0]}
+echo "Last argument " ${args[-1]}
