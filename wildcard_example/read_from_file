@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+# Function to check for 
+is_hedgehog() {
+if [ ${1,,} == "hedgehog" ]; then
+  echo "hedgehog detected ::" $1
+fi
+}
+
+# Read a file line by line
+while IFS= read -r line; do
+   is_hedgehog $line
+done < list_of_animals
+
+
+
+
+
