@@ -59,14 +59,14 @@ List all the enviroment variables in your session with `env`
 
 Variables can be used to make your scripts more reusable and easier to read. `variables` has an example of a string variable, a number variable and a variable set to the ouput of a command. 
 
-
 3. Arguments
 
-Arguments are inputs given to a script. Run the script `arguments` with some arguemnts, for example:
+Arguments are inputs given to a script. Run the script `arguments` with some arguements, for example:
 `bash arguments one two dog cat fish`
-*Extra credit*: Can you change the script to check if there are at least two arguments?
+*Extra credit*: Can you change the script to check that there are at least two arguments?
 
 4. If statements
+
 If statements are logic you can use to make your script do different things depending on the if condition.  `example_if` takes a number as an argument and prints out if the number is less than or greater than 3. 
 `bash example_if 55`
 
@@ -79,7 +79,6 @@ Case statements are an alternative to writing nested if statements (ifs inside i
 6. Loops
 
 The script `loops` has three different loop examples.  
-
 
 7. Functions
 
@@ -122,7 +121,49 @@ find . -mtime -1
 
 Pipes let you take the output from one command and use it as the input to another.
 
+Let's cd into the animals directory to play with pipes and redirects
+
+To show only the first few lines of a file, use `head`
+
+````
+head list_of animals
+````
+
+To redirect this ouput to a file instead of the screen use `>`
+
+````
+head list_of animals > some_animals
+````
+
+Take the head of list_of_animals then sort into reverse alphabetical order
+````
+head list_of_animals | sort -r
+````
+
+Take the head of list_of_animals then sort into reverse alphabetical order and write that output to a file
+
+````
+head list_of_animals | sort -r > reversed
+````
+
+Using `<` sends data from a file to a command
  
+
+This takes the list_of_animals file and runs `sort` on the file
+````
+sort < list_of_animals
+````
+
+This takes the list_of_animals file and runs `sort -u` on the file which sorts the file and removes duplicates, then outputs the result of this to a file 'unique_animals'
+
+````
+sort -u < list_of_animals > unique_animals
+````
+
+`>>` means append to a file
+
+
+
 
 # Reources:
 
