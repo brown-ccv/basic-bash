@@ -43,6 +43,21 @@ Verbose:
 #!/bin/bash -v
 ````
 
+# Exercises
+
+1. Environment variables
+
+Run the script `hello`.  What happens? Take a look at the script with `cat hello`
+Which environment variable is being used here?
+List all the enviroment variables in your session with `env`
+
+2. Arguments
+
+Arguments are inputs given to a script. Run the script `arguments` with some arguemnts, for example:
+`bash arguments one two dog cat fish`
+_Extra credit_: Can you change the script to check if there are at least two arguments?
+
+
 # Reources:
 
 The [bash manual](https://www.gnu.org/software/bash/manual/html_node/index.html) 
