@@ -17,7 +17,8 @@ echo "count = " $count
 
 # You can manipultation variables:
 # ${ ^^} changes the string to be all uppercase
-echo "uppercase name is: " ${name^^}
+# Note for this syntax you will need bash 4
+#echo "uppercase name is: " ${name^^}
 
 # You can do maths on the variables using $(( ))
 echo "count + 10 =" $((count + 10))
