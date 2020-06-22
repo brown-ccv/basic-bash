@@ -43,6 +43,32 @@ Verbose:
 #!/bin/bash -v
 ````
 
+# Exercises
+
+1. Environment variables
+
+Run the script `hello`.  What happens? Take a look at the script with `cat hello`
+Which environment variable is being used here?
+List all the enviroment variables in your session with `env`
+
+2. Arguments
+
+Arguments are inputs given to a script. Run the script `arguments` with some arguemnts, for example:
+`bash arguments one two dog cat fish`
+*Extra credit*: Can you change the script to check if there are at least two arguments?
+
+3. If statements
+If statements are logic you can use to make your script do different things depending on the if condition.  `example_if` takes a number as an argument and prints out if the number is less than or greater than 3. 
+`bash example_if 55`
+
+*Extra credit*: Can you change the script to only accept numbers?
+
+4. Case statements
+
+Case statements are an alternative to writing nested if statements (ifs inside ifs inside ifs ...).  `case` is an example case statement.  `case` also contains an infinite while loop. The case statement checks the input from the keyboard.  If the input is `bye` the break is executed and code exits the infinite while loop.  
+
+
+
 # Reources:
 
 The [bash manual](https://www.gnu.org/software/bash/manual/html_node/index.html) 
