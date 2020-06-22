@@ -1,7 +1,6 @@
-## Bash Basics
+### Bash Basics
 
-
-# Important concepts
+## Important concepts
 
 ### Bash is a scripting language
 
