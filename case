@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # This script has a while loop that will keep going 
 # because 'true' is always true.
 # The first step of the loop reads input from the keyboard

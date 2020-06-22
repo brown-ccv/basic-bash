@@ -4,8 +4,15 @@
 echo "Total number of arguements = " $#
 echo "The argumements are " $@
 
+# Refering to arguments by order
+
+echo "First argument is: " $1
+echo "Second argment is: " $2
+
 # Arguments as an array
 #
 args=("$@")
-echo "First argument " ${args[0]}
-echo "Last argument " ${args[-1]}
+echo "First argument is:" ${args[0]}
+echo "Last argument is:" ${args[-1]}
+
+
