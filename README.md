@@ -1,4 +1,4 @@
-### Bash Basics
+# Bash Basics
 
 ## Important concepts
 
