@@ -44,7 +44,7 @@ Verbose:
 
 # Exercises
 
-1. Environment variables
+**1. Environment variables**
 
 Environemnt variables are variables that are set outside your bash script, generally when you log in to the system or load a module. Run the script `hello`.  What happens? 
 
@@ -54,37 +54,37 @@ Which environment variable is being used here?
 
 List all the enviroment variables in your session with `env`
 
-2. Variables
+**2. Variables**
 
 Variables can be used to make your scripts more reusable and easier to read. `variables` has an example of a string variable, a number variable and a variable set to the ouput of a command. 
 
-3. Arguments
+**3. Arguments**
 
 Arguments are inputs given to a script. Run the script `arguments` with some arguements, for example:
 `bash arguments one two dog cat fish`
 *Extra credit*: Can you change the script to check that there are at least two arguments?
 
-4. If statements
+**4. If statements**
 
 If statements are logic you can use to make your script do different things depending on the if condition.  `example_if` takes a number as an argument and prints out if the number is less than or greater than 3. 
 `bash example_if 55`
 
 *Extra credit*: Can you change the script to only accept numbers?
 
-5. Case statements
+**5. Case statements**
 
 Case statements are an alternative to writing nested if statements (ifs inside ifs inside ifs ...).  `case` is an example case statement.  `case` also contains an infinite while loop. The case statement checks the input from the keyboard.  If the input is `bye` the break is executed and code exits the infinite while loop.  
 
-6. Loops
+**6. Loops**
 
 The script `loops` has three different loop examples.  
 
-7. Functions
+**7. Functions**
 
 The directory animals contains a file with a list of animals, and a script `hedgehog_finder`.  `hedgehog_finder` reads the list_of_animals file line by line and prints out if a hedgehog is detected.  What do you think the `${1,,}` does?
 
 
-8. Some useful tools
+**8. Some useful tools**
 
 `grep` searches within files for matching text.  In the animals directory, try using grep to find different animals:
 
@@ -116,7 +116,7 @@ To find files in the current directory which were modified within the last 1 day
 find . -mtime -1
 ````
 
-9. Pipes and redirects
+**9. Pipes and redirects**
 
 Pipes let you take the output from one command and use it as the input to another.
 
