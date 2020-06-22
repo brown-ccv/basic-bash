@@ -1,0 +1,8 @@
+repo:             basic-bash
+site_name:        Basic Bash
+authors:      
+  - name: Helen Kershaw
+    github_user: hkershaw-brown
+site_description: This workshop will cover basic shell scripting in Bash: variables, loops, pipes and more so participants can learn to automate work with Bas
+docs_url:         https://github.com/brown-ccv/basic-bash
+type:             workshop    # required. choose one of [software, tutorial, workshop, documentation]
