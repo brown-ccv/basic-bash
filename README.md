@@ -55,7 +55,18 @@ List all the enviroment variables in your session with `env`
 
 Arguments are inputs given to a script. Run the script `arguments` with some arguemnts, for example:
 `bash arguments one two dog cat fish`
-_Extra credit_: Can you change the script to check if there are at least two arguments?
+*Extra credit*: Can you change the script to check if there are at least two arguments?
+
+3. If statements
+If statements are logic you can use to make your script do different things depending on the if condition.  `example_if` takes a number as an argument and prints out if the number is less than or greater than 3. 
+`bash example_if 55`
+
+*Extra credit*: Can you change the script to only accept numbers?
+
+4. Case statements
+
+Case statements are an alternative to writing nested if statements (ifs inside ifs inside ifs ...).  `case` is an example case statement.  `case` also contains an infinite while loop. The case statement checks the input from the keyboard.  If the input is `bye` the break is executed and code exits the infinite while loop.  
+
 
 
 # Reources:
